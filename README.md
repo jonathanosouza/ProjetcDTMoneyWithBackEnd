@@ -18,9 +18,8 @@ saldo de saídas e total restante em conta utilizando reduce!
 
 
 
+![WhatsApp Video 2022-12-02 at 12 42 19](https://user-images.githubusercontent.com/36960606/208539086-2a63b852-8af9-43b3-889f-1ccc95a0cb59.gif)
 
-
-https://user-images.githubusercontent.com/36960606/208537664-4743e707-e728-4a03-afb7-d5a8959560bf.mp4
 
 
 Para rodar o projeto, baixar as pastas e rodar o FrontEnd dando um Yarn install para instalar as dependencias. E da um yanr dev para subir o servidor FrontEnd.
