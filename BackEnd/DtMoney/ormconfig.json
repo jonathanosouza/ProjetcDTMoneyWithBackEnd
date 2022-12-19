@@ -1,0 +1,14 @@
+
+{
+  "type": "postgres",
+  "port": 5432,
+  "host": "localhost", 
+  "username": "finance",
+  "password": "finance",
+  "database": "dtmoney", 
+  "migrations" : ["./src/database/migrations/*.ts"],
+  "entities":  ["./src/dtmoney/**/Entity/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}

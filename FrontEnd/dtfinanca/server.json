@@ -1,0 +1,31 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "title": "Desenvolvimento de Site",
+      "type": "withdraw",
+      "amount": 3000,
+      "category": "Venda",
+      "creaatedAt": "2022-07-29T19:36:44.505Z"
+    },
+    {
+      "id":2,
+      "title": "Hamburgeria",
+      "type": "deposit",
+      "amount": 50,
+      "category": "Despesa",
+      "creaatedAt": "2022-07-29T19:36:44.505Z"
+    },
+    {
+      "id":3,
+      "title": "Almoço Silvia",
+      "type": "deposit",
+      "amount": 22,
+      "category": "Despesa",
+      "creaatedAt": "2022-07-29T19:36:44.505Z"
+    }
+  ] 
+}
+
+
+

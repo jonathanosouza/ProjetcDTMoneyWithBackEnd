@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+  database: #ESSE É O NOME DO SERVICE QUE DEVE ESTAR NO ARQUIVO DE CRIAÇÃO DE CONEXÃO
+    image: postgres
+    container_name: database_dtmoney
+    restart: always
+    ports: 
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=finance
+      - POSTGRES_PASSWORD=finance
+      - POSTGRES_DB=dtmoney
+    volumes:
+      - pgdata:/data/postgres
+
+
+  app:
+    build: .
+    container_name: dtmoney
+    restart: always
+    ports: 
+      - 3335:3335
+      
+    volumes: 
+      - .:/usr/app
+    links: 
+      - database
+    depends_on:
+      - database
+
+
+
+volumes:
+  pgdata:
+    driver: local
