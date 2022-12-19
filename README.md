@@ -14,7 +14,7 @@ de API! Logo, crei tudo via nodeJS utilizando TypeORM
 com TypeScript e metodologia meio MVC meio SOLID, 
 realizado as funções de cadastro de uma
 transação, exclusão, bem como mostrando saldo de entrada,
-saldo de saídas e total restante em conta! 
+saldo de saídas e total restante em conta utilizando reduce! 
 
 
 
